@@ -11,8 +11,7 @@ int main(){
 void adivinanum(){
 int num,adivina;
 srand(time(0));
-    num=rand() % 1000;
-    //printf("%d",num);
+    num=rand() % 1000;//random entre 0 y 1000
     do{
         scanf("%d",&adivina);
         if(num>adivina)
